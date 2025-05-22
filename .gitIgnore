@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Build output (TS compiled files)
+dist/
+build/
+__build__/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*    # like .env.local, .env.development
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Nodemon PID file
+pids/
+*.pid
+
+# Optional: Mac/Linux trash
+.trash/
+
+# Optional: .next (in case you're ever using Next.js)
+.next/
